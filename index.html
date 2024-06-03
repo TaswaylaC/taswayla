@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Long Scrolling Webpage</title>
+    <style>
+        /* Basic styling for the header */
+        header {
+            background-color: pink;
+            color: black;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        /* Styling for the sections */
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        /* Styling for the navigation buttons */
+        .nav-btn {
+            background-color: #0074D9;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <p>Explore the sections below</p>
+    </header>
+
+    <section id="about">
+        <h2>What i've learned in this BTT course</h2>
+        <p>In my business course, I've learned several essential skills. I now know what business letters consist of and how to format them properly. Additionally, I've gained experience in creating websites using both Wix and HTML. The course also covered the importance of avoiding plagiarism and how to create PMI charts effectively. Overall, it's been a comprehensive learning experience that has equipped me with practical business knowledge and technical skills.
+</p>
+ <img src="https://drydenlabs.com/wp-content/uploads/2019/08/Web-Design-Trends.jpeg" alt="design" height="300" width="650">
+        
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>1.I chose the business letter as one of my work portfolio pieces because it's something that is very important to know and have information about. This  can help me in the future because I want to be a Real estate lawyer which comes with a lot of writing skills, and business letters are a part of that.
+        
+ 2. I chose the PMI chart as the next piece of work in my portfolio because it is a great organizer for work. This will help me in many ways in the future for the reason that in situations it helps people/me look at the pros and cons of the scenario, it also gives me some brain picking questions on more i'd like to know about. Therefore it's a great and efficient organizer. 
+ 3. Third, I chose my resume as one of my artifacts because it serves as a summary of the skills I've learned in this course. It also allows people to have a look at my background and achievements in that format. 
+ 
+4. Then I chose the CRAAP tool learning assignment as my next piece because to me this is one of the most important things I've learned in this course. The CRAAP tool showcases and tells us about the authenticity of a website I'm researching on. This will be very useful in the future since researching is an essential and it's used in many jobs and university/higher grades in my future. 
+
+5. I chose blind typing for one of the pieces because I just feel like it was a really cool experience, and it was also a really good skill to learn.
+
+6. This is a great piece for my portfolio again because it is also a great organization sheet. This will be useful to anyone or me in the future if you have your own business and become an entrepreneur because you can make your payroll sheet there. 
+
+7. Lastly I chose that last piece because knowing formulas for the payroll or other things is important because they all tie into each other. You need to know how to do formulas to make payroll sheets.
+
+
+
+
+</p>
+        <p><a href="https://docs.google.com/document/d/13Z_dUXrY_OKOPthUMQbEjJxP-DblB9dUSL8B46Nra6c/edit">Profolio Pieces!</a></p>
+
+    </section>
+
+    <section id="cver letter">
+        <h2>Resume</h2>
+        <p>What I specialize in...</p>
+        <p><a href="https://docs.google.com/document/d/1SHyJfYF1Sn76MSD96i2PwDnnsNBcprOTbS0dudayZnk/edit?usp=sharing">Resume!</a></p>
+        
+    </section>
+
+    </script>
+</body>
+</html>
+
+<section id="catholic education teachings">
+        <h2>catholic education teachings</h2>
+Show connection to the Catholic Graduate Expectations and Social Teaching
+This relates to the Catholic Graduate Expectations and Social teachings because during the making of the presentation of my HTML website I found meaning, dignity and vocation in work which respects the rights of all and contributes to the common good.
+
+
+
+   </section>
+   
+ <!-- Navigation buttons -->
+    <div>
+        <button class="nav-btn" onclick="scrollToSection('about')">About</button>
+        <button class="nav-btn" onclick="scrollToSection('portfolio')">Portfolio</button>
+        <button class="nav-btn" onclick="scrollToSection('contact')">Contact</button>
+    </div>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
